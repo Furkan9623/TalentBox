@@ -7,7 +7,9 @@ const UserModel = require("../models/user-schema");
 
 // REGISTER USER
 const REGISTER_USER = async (req, res) => {
-  const { name, email, password } = JSON.parse(req.body.user);
+  // const { name, email, password } = JSON.parse(req.body.user);
+  // when use postman then this will work
+  const { name, email, password } = req.body;
   console.log(req.body.user);
   console.log("file", req.file);
   const { filename } = req.file || {};

@@ -12,6 +12,8 @@ app.use(express.json());
 
 // router
 app.use("/api/v1", router);
+// serve static file
+app.use("/upload", express.static("./uploads"));
 // server run
 const PORT = process.env.PORT;
 const server = app.listen(PORT, () => {
