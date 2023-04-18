@@ -3,7 +3,9 @@
 
 # FreeCodeCamp Clone
 
- FrontEnd Deployed Link-https://talentbox-assignment-8ef67a.netlify.app/
+ 
+ [![Deployment Status](https://img.shields.io/website?url=https%3A%2F%2Fexample.com)](https://talentbox-assignment-8ef67a.netlify.app/)
+
 
  BackEnd Deployed Link-https://talentboxbackend-production.up.railway.app/
 
