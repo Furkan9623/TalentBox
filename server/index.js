@@ -3,8 +3,10 @@ const dotenv = require("dotenv");
 const express = require("express");
 const router = require("./router/user-router");
 const ConnectDB = require("./config/db");
+const { InsertCourseDB } = require("./controllers/course-controller");
 dotenv.config();
 ConnectDB();
+InsertCourseDB();
 const app = express();
 // middleware
 app.use(cors());
@@ -19,11 +21,11 @@ const PORT = process.env.PORT;
 const server = app.listen(PORT, () => {
   console.log(`SERVER ON PORT ${PORT}`);
 });
-
+// server connect then run this
 server.on("listening", () => {
   console.log("DATA CONNECTED....");
 });
-
+// if got any error during server run this will run
 server.on("error", (error) => {
   console.log("DATA NOT CONNECTED>>>", error);
 });
