@@ -13,9 +13,9 @@ This is a web application for e-learneing. It allows users to register,login and
 
 
 # Features
-Register New User
-Login Existing User
-Find Free Courses
+`1` Register New User. <br>
+`2` Login Existing User. <br>
+`3` Find Free Courses
  
  
 # Installation
@@ -23,11 +23,11 @@ Find Free Courses
 ** Clone the repository: git clone https://github.com/Furkan9623/TalentBox.git
 
 # For FrontEnd
- Install dependencies: npm install
+ Install dependencies: npm install <br>
  Start the development server: npm start
  
 # For BackEnd
- Install dependencies: npm install
+ Install dependencies: npm install <br>
  Start the development server: node index.js
  
  
