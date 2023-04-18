@@ -9,7 +9,7 @@
  BackEnd Deployed Link-https://talentboxbackend-production.up.railway.app/
 
 
-`*` This is a web application which help people learn to code for free. It allows users to register,login and also user find the free courses by their requirement. The application is built using React JS, React-Router-Dom, and Normal Css,Node JS,Express JS,MongoDB.
+`*` This is a web application which help people learn to code for free. It allows users to learn code and find the free courses by their requirement. The application is built using React JS, React-Router-Dom, and Normal Css,Node JS,Express JS,MongoDB.
 
 
 # Features
