@@ -13,9 +13,9 @@ This is a web application for e-learneing. It allows users to register,login and
 
 
 # Features
- Register New User
- Login Existing User
- Find Free Courses
+ **Register New User
+ **Login Existing User
+ **Find Free Courses
  
  
 # Installation
