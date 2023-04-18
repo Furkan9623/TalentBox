@@ -45,9 +45,10 @@ const Register = () => {
     const result = await REGISTER_USER(formData);
     console.log(Object.fromEntries(formData));
     if (result.status === 200) {
+      alert(`Thanks for creating account ${name}`);
       redirect("/login");
     } else {
-      alert(result.response.data);
+      alert(result.response.data.message);
     }
   };
 

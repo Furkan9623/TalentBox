@@ -3,6 +3,7 @@ import Button from "./Button";
 import Input from "./Input";
 import { Link, useNavigate } from "react-router-dom";
 import { profileContext } from "../context/myContext";
+import { FaSearch, FaSistrix } from "react-icons/fa";
 const Navbar = () => {
   const { profile, setProfile } = useContext(profileContext);
   const URL = "http://localhost:8080";
@@ -14,10 +15,15 @@ const Navbar = () => {
   };
   return (
     <div id="nav-bar">
-      <Input placeholder="Search Tutorial.." className="nav-input" />
-      <Link to={"/course"}>
-        <h4>FREE CODE CAMP</h4>
-      </Link>
+      <div className="input-div">
+        <span>
+          <FaSistrix className="serIcon" />
+        </span>
+        <Input placeholder="Search 8000+ Tutorial.." className="nav-input" />
+      </div>
+      <h4 className="freeCode-camp" onClick={() => redirect("/course")}>
+        FreeCodeCamp(A)
+      </h4>
       {Object.keys(profile).length > 0 ? (
         <div className="profile">
           <span>{profile.name}</span>
