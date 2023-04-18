@@ -31,3 +31,13 @@ Clone the repository: git clone https://github.com/Furkan9623/TalentBox.git
  
  
  
+  # Homepage:
+  
+  
+ 
+ ![T-image1](https://user-images.githubusercontent.com/109727423/232891830-abcbbaf4-886a-4d07-973f-5e173ed664f5.jpg)
+
+ 
+ 
+ 
+ 
